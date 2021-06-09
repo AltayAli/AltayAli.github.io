@@ -1129,6 +1129,15 @@ h2.menu-item:after {
   overflow: visible;
   width: 90%;
 }
+.border-bottom {
+  height: 1px;
+  margin-bottom: 30px;
+  background-color: #ddd;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+  width: 100%;
+}
 
 .progress-bar {
   height: 2px;
@@ -1156,7 +1165,9 @@ h2.menu-item:after {
   color: #333;
   font-weight: 500;
   margin-bottom: 10px;
+  padding-right: 10px;
 }
+
 
 .progress-bar-label span {
   font-weight: 300;
@@ -1165,7 +1176,9 @@ h2.menu-item:after {
 .icon-list li {
   padding-left: 25px;
 }
-
+.skills {
+  margin-left: 20px;
+}
 .icon-list li:before {
   position: absolute;
   content: "\f3fd";
@@ -2181,8 +2194,8 @@ h4.package {
     -ms-transform: rotate(-34deg);
     -webkit-transform: rotate(-34deg);
     transform: rotate(-34deg);
-    left: 122px;
-    top: 90px;
+    left: 212px;
+    top: 220px;
   }
   .about-block {
     -ms-transform: rotate(-34deg);
