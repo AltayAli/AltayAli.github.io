@@ -1168,7 +1168,6 @@ h2.menu-item:after {
   padding-right: 10px;
 }
 
-
 .progress-bar-label span {
   font-weight: 300;
 }
@@ -1259,6 +1258,12 @@ h2.menu-item:after {
 
 .exp .hgroup h4 span {
   color: #666;
+}
+.exp .hgroup a {
+  color: #666;
+}
+.exp .hgroup a:hover {
+  color: #333;
 }
 
 .exp .hgroup h5 {
